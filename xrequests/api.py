@@ -24,4 +24,3 @@ def patch(url, **kwargs):
 
 def delete(url, **kwargs):
     return request("DELETE", url, **kwargs)
-
