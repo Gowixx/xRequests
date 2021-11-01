@@ -125,7 +125,7 @@ class Session:
                     raise err
 
                 conn_reused = False
-   def get(self, url, **kwargs):
+    def get(self, url, **kwargs):
         return self.request("GET", url, **kwargs)
 
     def post(self, url, **kwargs):
